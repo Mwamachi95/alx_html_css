@@ -50,29 +50,6 @@ body {
     height: 32px;
 }
 
-/* Burger menu */
-.burger {
-    display: none;
-    cursor: pointer;
-    width: 30px;
-    height: 21px;
-    position: relative;
-}
-
-.burger span {
-    display: block;
-    background-color: var(--text-color);
-    height: 3px;
-    width: 100%;
-    margin: 5px 0;
-    transition: 0.3s ease;
-}
-
-/* Hide the checkbox */
-.menu-toggle {
-    display: none;
-}
-
 .nav-links {
     display: flex;
     gap: 30px;

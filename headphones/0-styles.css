@@ -131,7 +131,7 @@ body {
 }
 
 /* Tablet Styles */
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) and (min-width: 481px) {
     .nav {
         padding: 0 20px;
     }
@@ -146,7 +146,7 @@ body {
 }
 
 /* Mobile styles */
-@media (max-width: 375px) {
+@media screen and (max-width: 480px) {
     .nav-toggle {
         display: block;
         cursor: pointer;

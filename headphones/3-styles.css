@@ -317,3 +317,107 @@ body {
         gap: 16px;
     }
 }
+
+/* CONTACT SECTION */
+.contact-section {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.contact-section h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+    font-size: 2rem;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-group {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    font-size: 1rem;
+    background: transparent;
+    transition: border-color 0.3s ease;
+    border-radius: 0;
+}
+
+textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+    border-bottom-color: #FF6565;
+}
+
+label {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-25%);
+    color: #666;
+    transition: all 0.3s ease;
+    pointer-events: none;
+    font-size: 1rem;
+}
+
+textarea ~ label {
+    /* top: 8px; */
+    transform: translateY(50%);
+}
+
+.cta-button {
+    background-color: #FF6565;
+    color: #ffffff;
+    width: 162px;
+    height: 44px;
+    box-sizing: border-box;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-transform: uppercase;
+    width: fit-content;
+    align-self: center;
+}
+
+.cta-button:hover {
+    background-color: indianred;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .contact-section {
+        margin: 20px auto;
+    }
+
+    .contact-section h1 {
+        font-size: 20px;
+    }
+
+    input,
+    textarea,
+    .cta-button {
+        font-size: 14px;
+    }
+}

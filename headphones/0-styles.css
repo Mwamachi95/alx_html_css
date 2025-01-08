@@ -167,6 +167,10 @@ body {
         transition: transform 0.3s ease;
     }
 
+    .nav-toggle-inner {
+        width: 18px;
+    }
+
     .nav-toggle-inner::before {
         top: -6px;
         position: absolute;

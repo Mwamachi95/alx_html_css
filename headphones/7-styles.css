@@ -26,7 +26,7 @@ body {
 /* Container */
 .hero-container {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
     padding: 0 20px;
 }
@@ -251,7 +251,7 @@ body {
 
 /* What we do section */
 .what-we-do {
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
     padding: 4rem 2rem;
     text-align: center;
@@ -400,7 +400,7 @@ body {
 }
 
 .results-container {
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
@@ -511,7 +511,7 @@ body {
 
 /* CONTACT SECTION */
 .contact-section {
-    max-width: 500px;
+    max-width: 400px;
     margin: 40px auto;
     padding: 20px;
     background-color: #ffffff;
@@ -622,7 +622,7 @@ textarea ~ label {
 }
 
 .footer-container {
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
     padding: 0 20px;
 }

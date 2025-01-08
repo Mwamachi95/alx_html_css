@@ -26,7 +26,7 @@ body {
 /* Container */
 .hero-container {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
     padding: 0 20px;
 }
@@ -251,7 +251,7 @@ body {
 
 /* What we do section */
 .what-we-do {
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
     padding: 4rem 2rem;
     text-align: center;
